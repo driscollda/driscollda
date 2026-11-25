@@ -53,6 +53,8 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **November 25 · Seeing who picked up the work.** In the desktop chat, I can now ask which tracked items need another look and see why. In one check, two of 16 items pointed to records that had changed. In another, the view showed that both assistants had acknowledged an earlier update. A third check showed why a saved answer needed a second opinion. The assistants had been prompted for the original handoff. Today’s checks ran locally, and a new advisor response is still untested.
 
+**November 25 · Finding a project in a few words.** I compared two versions of the lookup on the same Windows computer. I tried seven short phrases I use for ongoing work. The earlier version found the intended note for none of the seven. The updated version found it for all seven. When one name fit two discussions, it showed both choices. This tested which note the computer could find. I still need to see whether a new desktop chat uses that note correctly in its first answer.
+
 ## What I’m working toward
 
 A new chat should be able to answer “who’s taking care of that now?” from the latest agreement. If it has only the request to take over, it should name the last confirmed owner and explain what’s missing. I want that to work on an unfamiliar example, on the first reply, without my supplying an old conversation or a summary that gives away the answer.
