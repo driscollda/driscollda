@@ -51,8 +51,10 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **November 23–24 · Moving updates between assistants and checking who said what.** On November 23, two assistants correctly read back an updated background record when prompted. Automatic sharing between them remains unverified. On November 24, a proposed change identified the speaker correctly in four of six small checks. It mistook a heading for a person in one and attributed someone’s quoted words to the wrong speaker in another. The change remains under evaluation.
 
+**November 25 · Seeing who picked up the work.** In the desktop chat, I can now ask which tracked items need another look and see why. In one check, two of 16 items pointed to records that had changed. In another, the view showed that both assistants had acknowledged an earlier update. A third check showed why a saved answer needed a second opinion. The assistants had been prompted for the original handoff. Today’s checks ran locally, and a new advisor response is still untested.
+
 ## What I’m working toward
 
 A new chat should be able to answer “who’s taking care of that now?” from the latest agreement. If it has only the request to take over, it should name the last confirmed owner and explain what’s missing. I want that to work on an unfamiliar example, on the first reply, without my supplying an old conversation or a summary that gives away the answer.
 
-Updated November 24, 2026.
+Updated November 25, 2026.

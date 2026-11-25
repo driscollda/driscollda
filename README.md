@@ -8,7 +8,7 @@ I’m building and testing a way for a new conversation to pick up earlier work,
 
 The dated history follows the project from repeated résumé uploads to the day a chat recognized my two earlier attempts with a link. It also covers tests where the assistant found the right conversation and still gave the wrong answer. It includes the successes and setbacks behind the occasional social update.
 
-[Read the full Persistent Memory project history, updated November 24, 2026](PERSISTENT-MEMORY.md)
+[Read the full Persistent Memory project history, updated November 25, 2026](PERSISTENT-MEMORY.md)
 
 ## Related work
 
