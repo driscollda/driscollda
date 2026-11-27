@@ -6,9 +6,9 @@ I worked my way from Level 1 technician to senior system administrator. Today I 
 
 I’m building and testing a way for a new conversation to pick up earlier work, recognize a correction, and explain what’s still uncertain. The project grew out of a question I asked in February 2024 about keeping information between conversations. By May 2026 I had a local setup under development.
 
-The dated history follows the project from repeated résumé uploads to the day a chat recognized my two earlier attempts with a link. It also covers tests where the assistant found the right conversation and still gave the wrong answer. It includes the successes and setbacks behind the occasional social update.
+The dated history follows the project from repeated résumé uploads to the day a chat recognized my two earlier attempts with a link. It also covers tests where the assistant found the right conversation and still gave the wrong answer. In the latest simulation the assistant asked for confirmation but moved a box early. A follow-up test showed what happened when the simulator held the box in place.
 
-[Read the full Persistent Memory project history, updated November 25, 2026](PERSISTENT-MEMORY.md)
+[Read the full Persistent Memory project history, updated November 26, 2026](PERSISTENT-MEMORY.md)
 
 ## Related work
 

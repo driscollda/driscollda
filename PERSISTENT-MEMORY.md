@@ -26,11 +26,15 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **October 7 · Testing the choice of earlier evidence.** A revised version passed 193 component tests and 13 staged checks. We also replayed two earlier questions to check which sources it selected. We could verify the revision was registered on the computer. We still needed to observe it helping someone in a real conversation.
 
+**October 8 and 22 · Keeping my place between projects.** I kept putting related work in different chats and then losing track of it. On October 8 I asked for a way to come back to a project. We organized the recovered work into 20 project homes and checked that 1,340 original files still had the same contents. On October 22 I asked about finding an older conversation by its ID. These were tools I could use to find my place. I still wanted a new chat to recognize the subject when I didn’t know the ID.
+
 ## November 2026 · What happened in actual chats and controlled tests
 
 **November 3 · One link, three conversations.** I pasted the same link into three different conversations within four minutes. The first two couldn’t read the post. In the third, I supplied only the URL. Before I mentioned the other attempts, the assistant recognized both failures, asked for browser access, and reviewed the post after I approved. On November 6 we checked the original messages and actions. The third conversation had already existed for several days. This was the clearest real example of the behavior I wanted, and it raised a question we could test. Would the same thing happen in a brand-new chat?
 
-**November 9 · Resuming a project with an ordinary question.** After we updated the project guides, I asked a new web chat outside the project what we had finished and what came next. Its first answer recovered the latest engineering result, the limits of the test and the correct unfinished work. It cited the updated guides. The chat could also draw on earlier context, so several sources may have contributed.
+**November 9 · Resuming a project with an ordinary question.** After we updated the project guides, I asked a new web chat outside the project what we had finished and what came next. Its first answer recovered the latest engineering result, the limits of the test and the correct unfinished work. It cited the updated guides. The chat could also draw on earlier context, so several sources may have contributed. We tried the same question in a fresh Work chat. It cited an older review and missed part of the progress. Before the guide update, both answers had been incomplete.
+
+**November 9 · Could I undo an update on my own computer?** We applied a revision to the Windows installation, restored the original file, and checked that its contents matched the original exactly. We then applied the revision again and verified which version was in place. That gave me a tested way back if the update went wrong. We tested what a new chat could remember separately.
 
 **November 11 · Comparing the same link in fresh Codex chats.** Each chat received the same URL with no explanation, using the same model and browsing restrictions. The project chat recognized the two earlier failures. The comparison chat with standard Codex memory asked for the post text or a screenshot and gave no indication it recognized them. A third chat outside the project received the earlier records and still didn’t mention them. This isolated a real difference in those answers. One link couldn’t establish which part of the setup caused it or how often it would work elsewhere.
 
@@ -38,11 +42,15 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **November 14 · A work queue for the person managing the projects.** A local queue brought 16 tracked items into one view alongside an inventory of 24 projects. I could see ownership, what was waiting and where to pick up. It gave me a way to resume work even on days when a chat missed the handoff.
 
+**November 19 · What did one attempt actually cost?** We recorded how many tokens an assistant and its helper processed during a link review, including how much input they reused. The account meter showed the same whole percentage before and after. The assistant could count the work it did, but it still couldn’t open the clip. We couldn’t assign an exact fraction of the weekly allowance to that attempt. I wanted to track whether a job finished alongside how much it used.
+
 **November 20 · A changed location and an unaccepted suggestion.** In a fresh fictional test, one pickup moved while a second pickup stayed as arranged. The assistant applied the move to the right event and correctly treated a proposed time as a suggestion. It also added “AM” where the records gave no time of day. Someone following the answer would have received one detail too many.
 
 **November 21 · Could a correction survive an interruption?** On one Windows PC we interrupted the prototype at four different points while it was saving. After restarting, all four cases recovered a weaving lesson moved from 9:15 a.m. to 2:50 p.m. and preserved a separate clarinet lesson at 11:40 a.m. In a fifth case, the saved records conflicted and the reader withheld both times. Physical power loss remains untested.
 
-**November 21 · Could the first answer find the right topic?** In a separate Windows browser test, the prototype searched across 26 fictional topics and fully answered 19 of 20 previously exercised questions. On the twentieth, it asked which project I meant. The available conversation already said to bring four printed copies of a poem. Asking me again was the failure we were trying to catch.
+**November 21 · Could the first answer find the right topic?** In a separate Windows browser test, the prototype searched across 26 fictional topics and fully answered 19 of 20 previously exercised questions. On the twentieth, it asked which project I meant. The available conversation already said to bring four printed copies of a poem. Asking me again was the failure we were trying to catch. When we gave the revised reader the right original messages up front, it fully answered all 20 on replay. In everyday use, the assistant has to both find the right conversation and read it correctly.
+
+**November 21 · What the phone test showed.** The Android browser displayed 40 answers generated by the model on my Windows PC. That verified delivery to the phone. A new conversation in the ordinary Android app still needed its own first-answer test.
 
 **November 22 · Who took over the folding stools?** A repair got eight previously missed handoff examples right on replay. We then asked two fresh test chats the same question about a new fictional outing. Each found the intended conversation.
 
@@ -55,8 +63,16 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **November 25 · Finding a project in a few words.** I compared two versions of the lookup on the same Windows computer. I tried seven short phrases I use for ongoing work. The earlier version found the intended note for none of the seven. The updated version found it for all seven. When one name fit two discussions, it showed both choices. This tested which note the computer could find. I still need to see whether a new desktop chat uses that note correctly in its first answer.
 
+**November 25 · A source link can lead straight past the correction.** In a fictional case about who was handling the red lanterns, the lookup returned the earlier plan and a link to the conversation. The later correction was there when we opened the original. It was missing from the lookup result. This check ended before a model answered. That distinction matters to me because a relevant link alone still leaves the user to do the remembering.
+
+**November 26 · When the assistant asks for confirmation, does it wait?** We ran eight short episodes in a computer simulation with two boxes. The local model passed six. In one of the other two it asked for confirmation in words while moving the orange box. After the operator clarified which box they meant, both boxes ended up in the delivery bay. In the other episode the simulator couldn’t interpret the model’s chosen actions. Seeing the words and the moves side by side gave us a way to catch a failure we’d miss by grading the conversation alone.
+
+**November 26 · Trying the correction again with a hold in place.** In the next simulation, the test specified when a box had to stay put and when the operator had released it. Across six new two-step episodes, the boxes ended up in the correct positions after all 12 steps. The model chose the expected action on 11. On the remaining step it tried to move early and the simulator prevented it. This tells me the hold worked when the test supplied it. Whether the system can recognize that instruction in ordinary speech is still open.
+
+**November 26 · Measuring work across open chats.** I wanted a record I could check when several chats were running at once. In one completed research turn, we reconciled its token counts across 21 updates and checked the account meter around the same work. Other chats overlapped. I could see how much text this turn processed and which part was cached, but couldn’t assign the later change in the shared allowance to this turn alone.
+
 ## What I’m working toward
 
 A new chat should be able to answer “who’s taking care of that now?” from the latest agreement. If it has only the request to take over, it should name the last confirmed owner and explain what’s missing. I want that to work on an unfamiliar example, on the first reply, without my supplying an old conversation or a summary that gives away the answer.
 
-Updated November 25, 2026.
+Updated November 26, 2026.
