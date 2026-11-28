@@ -71,8 +71,12 @@ When I open a new chat and say “let’s pick up where we left off,” I want i
 
 **November 26 · Measuring work across open chats.** I wanted a record I could check when several chats were running at once. In one completed research turn, we reconciled its token counts across 21 updates and checked the account meter around the same work. Other chats overlapped. I could see how much text this turn processed and which part was cached, but couldn’t assign the later change in the shared allowance to this turn alone.
 
+**November 27 · Finding a decision I made on my own PC.** The local assistant recovered my November 12 message about buying a bigger computer. I had said I wanted to test Qwen with our memory and corrections first. The returned source matched my original message. That gave me a way to check the decision in my own words. We tested one real request.
+
+**November 28 · Which piano appointment moved?** We put two fictional piano tunings in separate chats, then moved one in a third chat and left its new time open. We asked the local assistant, “What do I have scheduled?” Its first answer gave the untouched booking correctly. It left the moved appointment out altogether. The lookup found the original bookings but missed the later note saying the visit had moved. In a separate check, the same model got both bookings right when it received all eight notes and could answer in ordinary prose. I want the first answer to do that without my having to notice what’s missing.
+
 ## What I’m working toward
 
 A new chat should be able to answer “who’s taking care of that now?” from the latest agreement. If it has only the request to take over, it should name the last confirmed owner and explain what’s missing. I want that to work on an unfamiliar example, on the first reply, without my supplying an old conversation or a summary that gives away the answer.
 
-Updated November 26, 2026.
+Updated November 28, 2026.
